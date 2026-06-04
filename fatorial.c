@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main()
-{
+int fatorial(int n);
+
+int main() {
     int numero;
-    int resultado = 1;
 
-    printf("\nDigite o numero: ")
-    scanf("%d", &numero)
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
 
-    
-    resultado = fatorial(numero);
+    printf("Fatorial de %d = %d\n", numero, fatorial(numero));
 
-    printf("O fatorial de %d é %d",numero, resultado);
+    printf("\nFeito por Luís Guilherme ( https://github.com/luisblguilherme-11 ) ");
 
-    }
+    return 0;
+}
