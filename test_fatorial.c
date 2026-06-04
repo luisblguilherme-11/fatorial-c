@@ -1,12 +1,17 @@
 #include <stdio.h>
 #include <assert.h>
+
+long long fatorial(int n);
+
 int main()
 {
-    assert(fatoral(0)==1);
-    assert(fatoral(1)==1);
-    assert(fatoral(6)==720);
-    
-    printf("Testes executados com sucesso!")
-    printf("Criado por Luís Guilherme\n");
+    assert(fatorial(0) == 1);
+    assert(fatorial(1) == 1);
+    assert(fatorial(6) == 720);
+
+    printf("Todos os testes passaram!\n");
+
+    printf("\nFeito por Luís Guilherme ( https://github.com/luisblguilherme-11 ) ");
+
     return 0;
 }
