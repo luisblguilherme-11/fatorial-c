@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
 
-long long fatorial(int n);
+int fatorial(int n);
 
 int main()
+
 {
+
     assert(fatorial(0) == 1);
     assert(fatorial(1) == 1);
     assert(fatorial(6) == 720);
