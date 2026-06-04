@@ -1,10 +1,11 @@
-#include <stdio.h>
+int fatorial(int n)
 
-int fatorial(int numero)
 {
     int resultado = 1;
-    for(int contador=numero;contador>=1;contador--)
 
+    for (int i = 2; i <= n; i++) {
+        resultado *= i;
+    }
 
-
+    return resultado;
 }
