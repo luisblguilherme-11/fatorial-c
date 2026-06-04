@@ -2,7 +2,9 @@
 
 int fatorial(int n);
 
-int main() {
+int main()
+
+{
     int numero;
 
     printf("Digite um numero: ");
